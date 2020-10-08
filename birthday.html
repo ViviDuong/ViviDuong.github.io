@@ -69,35 +69,12 @@ if ('WebSocket' in window) {
     </nav>
  
         </div><!-- Code injected by live-server -->
-<script type="text/javascript">
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function() {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					head.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					head.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function(msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			console.log('Live reload enabled.');
-		})();
-	}
 
+</head>
+<body id="page-top">
 
+    <section class="resume-section" id="interests">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Yoga Lowers Stress and Anxiety</h2>
         </div></body></html>
 My birthday is on April 18th. I was born at 11pm and I am glad my birthday is during this month because I loved the fact that I get to celebrate it during spring break. During this time, the sky is clear, the air is warm, the birds are chirping, and flower are blooming. I usually get all excited once April hits which that means it is almost summer and school will be out in three months. 
